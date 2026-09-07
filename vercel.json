@@ -4,5 +4,13 @@
       "root": ".",
       "framework": "vite"
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "frontend"
+      }
+    }
+  ]
 }
